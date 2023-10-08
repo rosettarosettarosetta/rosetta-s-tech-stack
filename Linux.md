@@ -28,3 +28,9 @@ tools:
 删除文件：
 
     rm 文件路径
+
+
+访问文件：
+
+    cat /usr/local/cuda/version.txt
+
