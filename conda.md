@@ -10,4 +10,6 @@
 
     conda activate rosetta 
 
-      
+查看版本里的所有包:
+
+     conda list  
