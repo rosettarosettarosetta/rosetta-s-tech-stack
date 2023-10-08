@@ -6,6 +6,9 @@ tools:
     mv 源文件路径 目标文件路径  
     mv /home/user/file.txt /home/user/new_location/file.txt
 
+    #移动至上一层
+    mv file.txt ..
+
 
 从命名：
 
