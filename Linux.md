@@ -34,3 +34,9 @@ tools:
 
     cat /usr/local/cuda/version.txt
 
+
+复制文件：
+
+    cp [选项] 源文件  目标文件
+
+    
