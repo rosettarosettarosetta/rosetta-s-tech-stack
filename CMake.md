@@ -1,8 +1,9 @@
 创建CMakeLists.txt：
 
     cmake_minimum_required(VERSION 3.10)
-    project(3-6)
+    project(chapter)
     add_executable(3-6 3-6.cpp)
+    add_executable(3-7 3-7.cpp) #多行
 
 cmake_minimum_required(VERSION 3.10)：这一行指定了所需的CMake的最低版本。  
 project(3-6)：这一行定义了项目的名称。  
