@@ -29,9 +29,18 @@
     git remote add origin 'github仓库链接'
 
 拉取：  
-（远程仓库发生更改时需要合并）
+（远程仓库发生更改时需要合并）  
+（本地分支  落后于远程仓库时无法提交需要先pull）
 
     git pull origin main
+
+拉取远程和本地产生冲突时，可以用
+
+    git config pull.rebase false
+    #Git 会将远程分支的更新与你的本地分支进行合并，创建一个新的合并提交。使用合并策略可以保留分支的历史记录，每个分支的更改都能够保留在提交历史中。  
+    git config pull.rebase true  
+    #Git 会将你本地分支的提交应用于远程分支之上
+
 
 
 
