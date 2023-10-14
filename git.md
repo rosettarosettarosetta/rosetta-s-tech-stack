@@ -38,6 +38,7 @@
 
     git config pull.rebase false
     #Git 会将远程分支的更新与你的本地分支进行合并，创建一个新的合并提交。使用合并策略可以保留分支的历史记录，每个分支的更改都能够保留在提交历史中。  
+    
     git config pull.rebase true  
     #Git 会将你本地分支的提交应用于远程分支之上
 
