@@ -59,7 +59,8 @@
 
 推送：
 
-    git push origin master 
+    git push origin master/main 
+    #据branch 而定
 
 
 
