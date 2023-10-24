@@ -42,3 +42,7 @@ tools:
     
 
 vim按q退出
+apt 更新：
+
+    sudo apt-get update  
+    
