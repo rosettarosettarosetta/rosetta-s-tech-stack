@@ -14,6 +14,8 @@ mysql（linux）
 
     sudo cat /etc/mysql/debian.cnf  
 
+    1oWxqUkYk2GBIEiW  
+
 连接服务：
 
     mysql -u debian-sys-maint -p  
