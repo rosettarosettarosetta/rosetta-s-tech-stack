@@ -41,7 +41,8 @@ tools:
 
     
 
-vim按q退出
+vim按q退出  
+全局性 sudo 加在前面  
 apt 更新：
 
     sudo apt-get update  
