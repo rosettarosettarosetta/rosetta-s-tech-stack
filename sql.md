@@ -24,3 +24,10 @@ mysql（linux）
     sudo mysql -u root -p  
 
     
+
+SQL
+
+
+查询数据库列表：
+
+    SHOW DATABASES;
