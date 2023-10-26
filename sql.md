@@ -37,7 +37,13 @@ SQL
 
     USE database_name;  
 
+创建数据库：
+
+    CREATE DATABASE database_name;
+
 
 查询数据库中的表：
 
     SHOW TABLES;
+
+
