@@ -67,3 +67,7 @@
 
     git remote add  main https://github.com/rosettarosettarosetta/rosetta-s-tech-stack.git
 
+查看远程仓库配置：
+
+    git remote -v  
+    
