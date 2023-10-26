@@ -31,3 +31,13 @@ SQL
 查询数据库列表：
 
     SHOW DATABASES;
+
+
+进入数据库：
+
+    USE database_name;  
+
+
+查询数据库中的表：
+
+    SHOW TABLES;
