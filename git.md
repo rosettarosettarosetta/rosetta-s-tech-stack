@@ -63,4 +63,7 @@
     #据branch 而定
 
 
+连接github已创建好的项目：
+
+    git remote add  main https://github.com/rosettarosettarosetta/rosetta-s-tech-stack.git
 
