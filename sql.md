@@ -1,9 +1,9 @@
-mysql（linux）
-  
+# mysql（linux）  
+ 
+## 外部指令
 查看数据库状态:  
   
     systemctl status mysql  
-
 
 手动启动页面：
 
@@ -23,9 +23,7 @@ mysql（linux）
 
     sudo mysql -u root -p  
 
-    
 
-SQL
 
 
 查询数据库列表：
@@ -36,6 +34,17 @@ SQL
 进入数据库：
 
     USE database_name;  
+
+    
+
+## SQL语言
+
+### 核心功能和动词  
+> 数据查询   SELECT  
+> 数据定义   CREATE，DROP，ALTER  
+> 数据操纵   INSERT，UPDATE，DELETE  
+> 数据控制   GRANT，REVOKE   （给予权限）  
+> 
 
 创建数据库：
 
