@@ -98,6 +98,7 @@ piont：如果数据字节不够，CHAR会补零在末尾，而VARCHAR不会，�
     SELECT
     FROM
     WHERE
+    //SELECT * 代表选择表中的所有列
 
     //结果按选出的该列的值分组，列值相等的为一个组
     GROUP BY
@@ -107,3 +108,19 @@ piont：如果数据字节不够，CHAR会补零在末尾，而VARCHAR不会，�
 
     //排序（升或降）
     ORDER BY sno ASC/DESC 
+
+WHERE后可接运算符：  
+比较运算符：**= > < >=  <>**(这个是不等于)     
+逻辑运算符： **AND   NOT OR**
+谓词 **BETWEEN  (NOT)IN** (列值属于制定集合的元组)  
+字符匹配 **（NOT）LIKE**    
+**_**代表任意单个字符  **%**任意长度字符（可为0）
+    
+    （NOT）LIKE ‘<匹配串>’[ESCAPE'<换码字符>']  
+
+    ex:
+    WHERE SNAME LIKE '刘%' OR SNAME LIKE ‘_ _刘%’
+    //一个汉字占两个字符位
+    WHERE CNO =‘004’ AND PLACE IN ('湖南')
+
+ 
