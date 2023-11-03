@@ -1,9 +1,9 @@
 # rosetta-s-tech-stack
 
-1.git  
-2.conda  
-3.Linux  
-4.arduino  
-5.CMake  
-6.SQL  
-7.Markdown(来源：https://github.com/younghz/Markdown/tree/master)
+1.[git](https://github.com/rosettarosettarosetta/rosetta-s-tech-stack/blob/main/git.md)  
+2.[conda](https://github.com/rosettarosettarosetta/rosetta-s-tech-stack/blob/main/conda.md)    
+3.[Linux](https://github.com/rosettarosettarosetta/rosetta-s-tech-stack/blob/main/Linux.md)  
+4.[arduino](https://github.com/rosettarosettarosetta/rosetta-s-tech-stack/blob/main/arduino.md)  
+5.[CMake](https://github.com/rosettarosettarosetta/rosetta-s-tech-stack/blob/main/CMake.md)  
+6.[SQL](https://github.com/rosettarosettarosetta/rosetta-s-tech-stack/blob/main/SQL.md)  
+7.[Markdown](https://github.com/rosettarosettarosetta/rosetta-s-tech-stack/blob/main/Markdown.md)(来源：https://github.com/younghz/Markdown/tree/master)
