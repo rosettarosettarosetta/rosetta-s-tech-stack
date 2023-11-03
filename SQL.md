@@ -94,3 +94,16 @@ piont：如果数据字节不够，CHAR会补零在末尾，而VARCHAR不会，�
     
 
 ### 查询
+
+    SELECT
+    FROM
+    WHERE
+
+    //结果按选出的该列的值分组，列值相等的为一个组
+    GROUP BY
+    
+    //带having为特定条件的组才会输出
+    GROUP BY    HAVING 
+
+    //排序（升或降）
+    ORDER BY sno ASC/DESC 
