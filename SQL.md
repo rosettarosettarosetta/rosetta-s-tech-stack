@@ -62,7 +62,7 @@
 > VARCHAR(最大长度) 变长字符串
 
 piont：如果数据字节不够，CHAR会补零在末尾，而VARCHAR不会，直接接上下一个数据   
-#### 操作表
+### 操作表
 
     //增加表
     CREATE TABLE S_C
@@ -81,7 +81,7 @@ piont：如果数据字节不够，CHAR会补零在末尾，而VARCHAR不会，�
 主键  PRIMARY KEY ( )  
 外键  
 
-#### 改变表内内容（列）  
+### 改变表内内容（列）  
 
     //删除列
     ALTER TABLE S_C DROP COLUMN sno ；
