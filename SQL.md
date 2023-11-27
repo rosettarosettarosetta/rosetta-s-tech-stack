@@ -121,6 +121,19 @@ WHERE后可接运算符：
     ex:
     WHERE SNAME LIKE '刘%' OR SNAME LIKE ‘_ _刘%’
     //一个汉字占两个字符位
-    WHERE CNO =‘004’ AND PLACE IN ('湖南')
+    WHERE CNO =‘004’ AND PLACE IN ('湖南')  
 
- 
+### 约束  
+##### 约束分类
+not null 非空约束  
+unique 唯一性约束  
+primary key 主键约束  
+foreign key 外键约束  
+check 检查约束  
+default 默认值约束  
+
+ #### 如何查看表中约束？
+
+    SELECT * FROM information_schema.`TABLE_CONSTRAINTS`
+    WHERE table_name='employees';
+    
