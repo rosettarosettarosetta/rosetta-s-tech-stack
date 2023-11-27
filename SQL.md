@@ -125,7 +125,7 @@ WHERE后可接运算符：
 
 ### 约束  
 ##### 约束分类
-not null 非空约束  
+not null 非空约束   
 unique 唯一性约束  
 primary key 主键约束  
 foreign key 外键约束  
@@ -136,4 +136,20 @@ default 默认值约束
 
     SELECT * FROM information_schema.`TABLE_CONSTRAINTS`
     WHERE table_name='employees';
-    
+
+    DESC test1;
+    //返回有关的结构信息，例如列名、数据类型和约束等
+    //vs below
+    SELECT * FROM test1;
+    //返回数据
+
+    MODIFY email VARCHAR(25) NULL;
+    //表述可以有空值，不是一定
+
+
+#### UNIQUE
+限制某个字段或某列的值不能重复  
+分为列级和表级  
+表级约束：constraint 约束名称 关键字(字段名)  
+ex：CONSTRAINT uk_test2_email UNIQUE(email)
+https://blog.csdn.net/weixin_44016186/article/details/124320138?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170106697816800222831210%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170106697816800222831210&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-124320138-null-null.142^v96^pc_search_result_base6&utm_term=%E7%BA%A6%E6%9D%9F%20sql&spm=1018.2226.3001.4187  
