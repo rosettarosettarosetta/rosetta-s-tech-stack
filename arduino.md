@@ -19,3 +19,9 @@ void loop ()是循环
 
 
 带～的引脚支持pwr
+
+Arduino 文件的后缀名是.ino。  
+
+同时，每一个 Ardino 程序都必须 setup 和 loop 这两个函数  
+setup 函数中的代码仅会执行一次，而 loop 函数中的内容会不断地反复执行其中的代码。  
+
