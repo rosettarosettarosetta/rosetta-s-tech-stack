@@ -47,3 +47,8 @@ apt 更新：
 
     sudo apt-get update  
     
+
+安装：
+
+    sudo dpkg -i 文件名.deb
+
