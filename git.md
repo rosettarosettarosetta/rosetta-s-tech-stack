@@ -70,6 +70,26 @@
 查看远程仓库配置：
 
     git remote -v  
+
+
+进入 git 配置文件：
+
+    vim ~/.gitconfig
+然后添加以下内容：
+
+
+    [user]
+        name=MR-Addict
+        email=2750417853@qq.com
+    [http]
+        proxy=http://127.0.0.1:7890
+    [https]
+        proxy=http://127.0.0.1:7890
+    [init]
+        defaultBranch=main
+    [pull]
+        ff=only
+
     
 
 查看当前本地仓库关联的远程仓库列表，以及它们的别名：
