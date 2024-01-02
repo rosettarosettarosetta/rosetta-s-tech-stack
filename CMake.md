@@ -27,3 +27,5 @@ add_executable(3-6 3-6.cpp)：这一行指定了生成可执行文件的命令�
 
     ./build/3-6  
     
+
+更改cmake 地址时 删掉build文件重新运行  
