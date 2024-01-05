@@ -206,4 +206,7 @@ Markdown的使用者：
 |MarkDownCopy                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
 
 
-关于其它扩展语法可参见具体工具的使用说明。
+关于其它扩展语法可参见具体工具的使用说明。  
+
+
+全屏视图： ctrl+shift+v;  
