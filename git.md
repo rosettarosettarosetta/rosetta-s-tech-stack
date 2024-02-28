@@ -79,17 +79,11 @@
 然后添加以下内容：
 
 
-    [user]
-        name=MR-Addict
-        email=2750417853@qq.com
     [http]
         proxy=http://127.0.0.1:7890
     [https]
         proxy=http://127.0.0.1:7890
-    [init]
-        defaultBranch=main
-    [pull]
-        ff=only
+
 
     
 
